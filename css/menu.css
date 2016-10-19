@@ -16,7 +16,8 @@ html{
     font-family: 'Muli','Source Sans Pro', arial, sans-serif;
 }
 html, body{
-    background-color: #1E3E7F;
+    background-image: url("../images/html.jpg");
+    background-size: cover;
 }
 h1{
     font-size: 6.854rem;
@@ -41,16 +42,18 @@ p{
     max-width: 1400px; 
     width: 80%;
     margin: 0 auto;
-    background-color: #0B317F;
+    background-image: url("../images/wrapper.jpg") ;
+    background-size: cover;
     color: #83ADFF;
 }
 header{
     border-bottom: 0.8rem solid #3063CC;
-    background-color: #83ADFF;
+    background-image: url("../images/header.jpg");
     color: #0B317F;
 }
 .menu-h{
     width: 100%;
+    padding-left: calc(20% - 1.9rem);
 }
     .menu-h li{
         /* style the list items to remove the bullets 
@@ -58,6 +61,7 @@ header{
         and take up 20% of the width of the ul */
         list-style: none;
         display: inline;
+        width: 20%;
     }
         .menu-h a,
         .menu-h a:link,
@@ -72,7 +76,9 @@ header{
         }
         .menu-h a:hover,
         .menu-h a:active{
-            
+/*            border: 5px solid #0B317F;*/
+            background-color: #83ADFF;
+            color: #0B317F;
         }
 .menu-v{
     width: 20%;
@@ -84,6 +90,7 @@ header{
         and take up 100% of the width of the ul */
         list-style: none;
         display: block;
+        width: 100%;
     }
         .menu-v a,
         .menu-v a:link,
@@ -97,7 +104,9 @@ header{
         }
         .menu-v a:hover,
         .menu-v a:active{
-            
+            border: 5px solid #83ADFF;
+            background-color: #0B317F;
+            color: #83ADFF;
         }
 main{
     width:80%;
@@ -105,4 +114,6 @@ main{
 }
 footer{
     clear:both;
+    background-image: url("../images/footer.jpg");
+    color: #082359;
 }
